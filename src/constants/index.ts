@@ -3,7 +3,6 @@ import validation from '../assets/validation.png';
 import chatApp from '../assets/chat app.png';
 import dashboard from '../assets/dashboard.png';
 import shareduled from '../assets/shareduled.png';
-import { text } from 'motion/react-client';
 
 export const Hero_Content: string = `A detail-oriented web developer with 1+ years experience in creating dynamic and
 responsive web applications. Driven by a client-first mindset and result oriented
