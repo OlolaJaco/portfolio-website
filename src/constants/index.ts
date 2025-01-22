@@ -2,7 +2,7 @@ import todo from '../assets/todo.png';
 import validation from '../assets/validation.png';
 import chatApp from '../assets/chat app.png';
 import dashboard from '../assets/dashboard.png';
-import shareduled from '../assets/shareduled.png';
+import shareduled from '../assets/Shareduled.png';
 
 export const Hero_Content: string = `A detail-oriented web developer with 1+ years experience in creating dynamic and
 responsive web applications. Driven by a client-first mindset and result oriented
