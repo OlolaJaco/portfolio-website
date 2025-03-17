@@ -3,6 +3,7 @@ import validation from '../assets/validation.png';
 import chatApp from '../assets/chat app.png';
 import dashboard from '../assets/dashboard.png';
 import shareduled from '../assets/Shareduled.png';
+import blog from '../assets/jaco-blog.png'
 
 export const Hero_Content: string = `A detail-oriented web developer with 1+ years experience in creating dynamic and
 responsive web applications. Driven by a client-first mindset and result oriented
@@ -26,7 +27,7 @@ export const Experiences = [
         role: "Software Developer Intern",
         company: "Shareduled",
         description: `Collaborate on an existing codebase, integrating new technologies and features using React and TypeScript to enhance functionality and performance.`,
-        technologies: ["TypeScript", "React.js"]
+        technologies: ["TypeScript", "React.js", "Next.Js", "MaterialUI", "DaisyUI"]
     },
     {
         year: "May 2024 - Oct 2024",
@@ -49,9 +50,17 @@ export const Projects = [
         title: "Shareduled",
         Image: shareduled,
         description: `A scheduling platform that enables business and users to book appointments schedules for services, helps coordinate tasks and manage time effectively.`,
-        technologies: ["React.js", "TypeScript"],
+        technologies: ["React.js", "Next.JS", "TypeScript", "MaterialUI", "DaisyUI"],
         gitHub: "/",
         live: "https://shareduled.com/"
+    },
+    {
+        title: "Blog Website",
+        Image: blog,
+        description: `A high-performance blog website using Next.js, featuring dynamic search, sorting, and category filtering, alongside comprehensive SEO optimization for improved organic visibility.`,
+        technologies: ["Next.js", "TypeScript", "DaisyUi", "MongoDB", ],
+        gitHub: "https://github.com/OlolaJaco/Blog-NextJS.git",
+        live: "https://blog-next-js-psi-red.vercel.app/"
     },
     {
         title: "Marketing Dashboard",
