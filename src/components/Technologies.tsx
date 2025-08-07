@@ -1,7 +1,8 @@
-import { FaReact } from "react-icons/fa"
+import { FaGithub, FaReact } from "react-icons/fa"
 import { SiExpress, SiMongodb } from "react-icons/si"
 import { TbBrandNextjs, TbBrandNodejs } from "react-icons/tb"
 import { motion } from "motion/react"
+import { DiPostgresql } from "react-icons/di"
 
 const Technologies = () => {
 
@@ -75,7 +76,21 @@ const Technologies = () => {
                     <TbBrandNodejs className="text-7xl text-green-500" />
                 </motion.div>
 
+                <motion.div
+                    variants={iconVariants(7)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <DiPostgresql className="text-7xl text-cyan-400" />
+                </motion.div>
 
+                <motion.div
+                    variants={iconVariants(2)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <FaGithub className="text-7xl" />
+                </motion.div>
             </motion.div>
         </div>
     )

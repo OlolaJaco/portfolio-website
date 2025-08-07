@@ -4,30 +4,47 @@ import chatApp from "../assets/chat app.png";
 import dashboard from "../assets/dashboard.png";
 import shareduled from "../assets/Shareduled.png";
 import blog from "../assets/jaco-blog.png";
-import property from "../assets/property-pulse.png";
+import kainkain from "../assets/kainkain.png";
 import streamer from "../assets/streamer.png";
+import golvia from "../assets/golvia.png";
 
 export const Hero_Content: string = `Passionate Fullstack Web Developer with 2+ years of hands-on experience building responsive, high performing web applications using the MERN stack. Focused on delivering impactful, user centered solutions with clean code and scalable architecture. Open to full-time roles—available immediately.`;
 
-export const About_Content: string = `Hi, I’m Akinbusola Akinola a detail driven Fullstack Web Developer with over 2 years of experience designing and developing responsive, user-focused web applications. I specialize in both frontend and backend technologies, with a strong command of the MERN stack (MongoDB, Express.js, React/Next.js, Node.js).
+export const About_Content: string = `Hi, I’m Akinbusola Akinola, a detail-driven Fullstack Web Developer with 2+ years of experience building performant, user-centric web applications.
 
-Whether I’m building SEO-optimized, scalable applications from scratch or collaborating within a team to enhance user experience and performance, I approach each project with a client-first mindset and a passion for problem-solving. My work has driven real-world impact—like increasing a platform’s organic reach to 3,000+ impressions in one month through thoughtful frontend engineering and performance tuning.
+I specialize in the MERN stack (MongoDB, Express.js, React/Next.js, Node.js), crafting both frontend and backend solutions that are responsive, scalable, and optimized for real-world impact.
 
-I’m constantly expanding my technical toolkit and exploring how emerging technologies including AI can power smarter, more efficient solutions. I also enjoy mentoring and helping others grow in their development journeys through teaching and collaboration.
+🔧 On day one at Golvia, I resolved a critical authentication bug, unlocking investor access for live testing, a key enabler in closing a $10,000 funding deal.
+🛸 I’ve also boosted Shareduled’s organic reach to 3,000+ monthly impressions by engineering SEO-ready, high-performance frontend experiences.
+🤝 Whether working solo or within cross-functional teams, I approach every project with a problem-solving mindset and a passion for user experience.
 
-I'm currently open to full-time opportunities where I can contribute to innovative teams, build real value, and continue growing as a developer. Let’s create something meaningful together!`;
+Beyond coding, I’m actively exploring how AI and emerging technologies can enhance modern development, and I enjoy mentoring junior developers through teaching and collaboration.
+
+I’m currently open to full-time roles where I can contribute to innovative teams, build products that matter, and keep growing as a developer.
+
+👉 Let’s create something impactful together.`;
 
 export const Experiences = [
   {
-    year: "Nov 2024 - Present",
-    role: "Software Developer Intern",
-    company: "Shareduled",
-    description: `Collaborate on an existing codebase, integrating new technologies and features using React and TypeScript to enhance functionality and performance.`,
+    year: "July 2025 - Present",
+    role: "Frontend Developer",
+    company: "Forah Technology",
+    description: `Fixed Golvia’s authentication system on my first day, enabling investor access for live testing,  a key factor in securing a $10,000 investment deal.`,
     technologies: [
       "TypeScript",
       "React.js",
-      "Next.Js",
+      "NextJs",
       "MaterialUI",
+    ],
+  },
+  {
+    year: "Nov 2024 - Present",
+    role: "Software Developer Intern",
+    company: "GJIO Technologies Inc.",
+    description: `Implemented technical SEO (SSR, meta tags, structured data), resulting in 3,000+ monthly organic users.`,
+    technologies: [
+      "TypeScript",
+      "NextJs",
       "DaisyUI",
     ],
   },
@@ -56,7 +73,7 @@ export const Experiences = [
 
 export const Projects = [
   {
-    title: "Shareduled",
+    title: "Shareduled - Appointment Booking Marketing Application",
     Image: shareduled,
     description: `A scheduling platform that enables business and users to book appointments schedules for services, helps coordinate tasks and manage time effectively.`,
     technologies: [
@@ -68,7 +85,21 @@ export const Projects = [
     live: "https://shareduled.com/",
   },
   {
-    title: "Streamer - Movie Streaming Web App",
+    title: "Golvia Sports - Social Media Platform for Sports Enthusiasts",
+    Image: golvia,
+    description: `A social media platform tailored for sports enthusiasts, featuring real-time updates, community engagement, and personalized content feeds.`,
+    technologies: [
+      "TypeScript",
+      "React.js",
+      "NextJs",
+      "MaterialUI",
+      "OAuth2.0",
+    ],
+    gitHub: "/",
+    live: "https://golviasports.com/",
+  },
+  {
+    title: "Streamer - Movie Streaming Web Application",
     Image: streamer,
     description: `A web-based movie streaming application that allows users to browse trending films, explore TV shows, and search for specific titles. The platform includes user authentication, theme switching (light,dark mode...), and a sleek, responsive UI for an immersive viewing experience.`,
     technologies: [
@@ -82,13 +113,12 @@ export const Projects = [
     live: "https://streamer-xi.vercel.app",
   },
   {
-    title: "Property Sales and Rent App",
-    Image: property,
-    description: `A property listing web application for buying, selling, and renting houses.
-Users can explore available properties, while agents are directly contacted regarding inquiries or orders. The platform connects prospective buyers or renters with verified agents,.`,
+    title: "KainKain - Nigeria Native Art e-commerce Web Application",
+    Image: kainkain,
+    description: `An e-commerce platform focused on selling Nigerian art products crafted with native kain kain sponge and curated art photography, allowing users to browse, search, and purchase artworks. The application features a user-friendly interface, secure payment processing, and a responsive design for an optimal shopping experience.`,
     technologies: ["NextJS", "TypeScript", "DaisyUi", "MongoDB"],
-    gitHub: "https://github.com/OlolaJaco/property-pulse.git",
-    live: "https://property-pulse-five-beige.vercel.app",
+    gitHub: "/",
+    live: "https://kain-kain-git-staging-adeoyetunmises-projects.vercel.app?_vercel_share=KaypY4lbTGD7PDIEs4aNBWRMJR6Iay9m",
   },
   {
     title: "Blog Website",
