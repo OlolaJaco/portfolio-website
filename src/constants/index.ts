@@ -7,6 +7,7 @@ import blog from "../assets/jaco-blog.png";
 import kainkain from "../assets/kainkain.png";
 import streamer from "../assets/streamer.png";
 import golvia from "../assets/golvia.png";
+import subscriptionTracker from '../assets/subscription-tracker.png';
 
 export const Hero_Content: string = `Passionate Fullstack Web Developer with 2+ years of hands-on experience building responsive, high performing web applications using the MERN stack. Focused on delivering impactful, user centered solutions with clean code and scalable architecture. Open to full-time roles—available immediately.`;
 
@@ -26,27 +27,18 @@ I’m currently open to full-time roles where I can contribute to innovative tea
 
 export const Experiences = [
   {
-    year: "July 2025 - Present",
-    role: "Frontend Developer",
-    company: "Forah Technology",
-    description: `Fixed Golvia’s authentication system on my first day, enabling investor access for live testing,  a key factor in securing a $10,000 investment deal.`,
-    technologies: [
-      "TypeScript",
-      "React.js",
-      "NextJs",
-      "MaterialUI",
-    ],
-  },
-  {
     year: "Nov 2024 - Present",
     role: "Software Developer Intern",
     company: "GJIO Technologies Inc.",
     description: `Implemented technical SEO (SSR, meta tags, structured data), resulting in 3,000+ monthly organic users.`,
-    technologies: [
-      "TypeScript",
-      "NextJs",
-      "DaisyUI",
-    ],
+    technologies: ["TypeScript", "NextJs", "DaisyUI"],
+  },
+  {
+    year: "July 2025 - October 2025",
+    role: "Frontend Developer",
+    company: "Forah Technology",
+    description: `Fixed Golvia’s authentication system on my first day, enabling investor access for live testing,  a key factor in securing a $10,000 investment deal.`,
+    technologies: ["TypeScript", "React.js", "NextJs", "MaterialUI"],
   },
   {
     year: "May 2024 - Oct 2024",
@@ -76,13 +68,17 @@ export const Projects = [
     title: "Shareduled - Appointment Booking Marketing Application",
     Image: shareduled,
     description: `A scheduling platform that enables business and users to book appointments schedules for services, helps coordinate tasks and manage time effectively.`,
-    technologies: [
-      "NextJS",
-      "TypeScript",
-      "DaisyUI",
-    ],
+    technologies: ["NextJS", "TypeScript", "DaisyUI"],
     gitHub: "/",
     live: "https://shareduled.com/",
+  },
+  {
+    title: "Subscription Tracker",
+    Image: subscriptionTracker,
+    description: `This is the backend for a subscription tracker application. It is built with Node.js and Express.js, and it uses MongoDB as its database. The application provides a RESTful API for managing user subscriptions.`,
+    technologies: ["ExpressJS", "MongoDB"],
+    gitHub: "https://github.com/OlolaJaco/subscription-tracker-express.js.git",
+    live: "https://documenter.getpostman.com/view/37531984/2sB3WsNeXr",
   },
   {
     title: "Golvia Sports - Social Media Platform for Sports Enthusiasts",
@@ -99,16 +95,18 @@ export const Projects = [
     live: "https://golviasports.com/",
   },
   {
+    title: "Chat Application",
+    Image: chatApp,
+    description: `A real-time chat application that enables users to communicate with each other, create chat rooms, and share messages and files.`,
+    technologies: ["ReactJS", "DaisyUI", "MongoDB", "Tailwind CSS", "Node.js"],
+    gitHub: "https://github.com/OlolaJaco/chat-app.git",
+    live: "https://chat-app-jade-phi.vercel.app",
+  },
+  {
     title: "Streamer - Movie Streaming Web Application",
     Image: streamer,
     description: `A web-based movie streaming application that allows users to browse trending films, explore TV shows, and search for specific titles. The platform includes user authentication, theme switching (light,dark mode...), and a sleek, responsive UI for an immersive viewing experience.`,
-    technologies: [
-      "NextJS",
-      "TypeScript",
-      "DaisyUI",
-      "MongoDB",
-      "OAuth2.0",
-    ],
+    technologies: ["NextJS", "TypeScript", "DaisyUI", "MongoDB", "OAuth2.0"],
     gitHub: "https://github.com/OlolaJaco/streamer.git",
     live: "https://streamer-xi.vercel.app",
   },
@@ -135,14 +133,6 @@ export const Projects = [
     technologies: ["Next.js", "PostgreSQL", "Tailwind CSS"],
     gitHub: "https://github.com/OlolaJaco/Next-Learn.git",
     live: "https://next-landing-puce.vercel.app/",
-  },
-  {
-    title: "Chat Application",
-    Image: chatApp,
-    description: `A real-time chat application that enables users to communicate with each other, create chat rooms, and share messages and files.`,
-    technologies: ["ReactJS", "DaisyUI", "MongoDB", "Tailwind CSS", "Node.js"],
-    gitHub: "https://github.com/OlolaJaco/chat-app.git",
-    live: "https://chat-app-jade-phi.vercel.app/",
   },
   {
     title: "To-Do List",
