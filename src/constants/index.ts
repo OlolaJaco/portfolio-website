@@ -34,7 +34,7 @@ export const Experiences = [
     technologies: ["TypeScript", "NextJs", "DaisyUI"],
   },
   {
-    year: "July 2025 - October 2025",
+    year: "July 2025 - Oct 2025",
     role: "Frontend Developer",
     company: "Forah Technology",
     description: `Fixed Golvia’s authentication system on my first day, enabling investor access for live testing,  a key factor in securing a $10,000 investment deal.`,
