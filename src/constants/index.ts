@@ -2,43 +2,58 @@ import todo from "../assets/todo.png";
 import validation from "../assets/validation.png";
 import chatApp from "../assets/chat app.png";
 import dashboard from "../assets/dashboard.png";
-import shareduled from "../assets/Shareduled.png";
 import blog from "../assets/jaco-blog.png";
 import kainkain from "../assets/kainkain.png";
 import streamer from "../assets/streamer.png";
-import golvia from "../assets/golvia.png";
 import subscriptionTracker from '../assets/subscription-tracker.png';
+import eduspra from '../assets/eduspra.png';
 
-export const Hero_Content: string = `Passionate Fullstack Web Developer with 2+ years of hands-on experience building responsive, high performing web applications using the MERN stack. Focused on delivering impactful, user centered solutions with clean code and scalable architecture. Open to full-time roles—available immediately.`;
+export const Hero_Content: string = `Full-Stack & Blockchain Engineer specializing in resilient Web3 protocols, sovereign Layer-1 app-chains, and high-concurrency cloud architectures. Proven track record architecting multi-tenant platforms, deploying EVM-compatible networks, and delivering mission-critical systems that drive real-world funding and scale.`;
 
-export const About_Content: string = `Hi, I’m Akinbusola Akinola, a detail-driven Fullstack Web Developer with 2+ years of experience building performant, user-centric web applications.
+export const About_Content: string = `I am a Full-Stack and Blockchain Engineer who bridges complex distributed systems with intuitive, production-grade applications. My expertise spans the entire development lifecycle—from engineering sovereign Layer-1 App-Chains and EVM execution environments to architecting fault-tolerant, multi-tenant cloud platforms.
 
-I specialize in the MERN stack (MongoDB, Express.js, React/Next.js, Node.js), crafting both frontend and backend solutions that are responsive, scalable, and optimized for real-world impact.
+Over the past two years, I’ve operated at the intersection of blockchain infrastructure and scalable web development:
+• Blockchain & Web3: Architected a sovereign Cosmos SDK Layer-1 App-Chain with CometBFT consensus, deployed 3-node validator clusters with real-time telemetry, and engineered audited Solidity smart contracts (ERC-20/721, Hardhat/Foundry, Wagmi).
+• Scalable Full-Stack Systems: Engineered multi-tenant SaaS architectures with strict tenant isolation, real-time WebSocket communication pipelines, and optimized Next.js/NestJS applications serving thousands of users.
+• High-Stakes Impact: Debugged and resolved an investor-critical authentication bottleneck on day one at Forah Tech, unlocking live testing that secured a $10,000 investment round.
 
-🔧 On day one at Golvia, I resolved a critical authentication bug, unlocking investor access for live testing, a key enabler in closing a $10,000 funding deal.
-🛸 I’ve also boosted Shareduled’s organic reach to 3,000+ monthly impressions by engineering SEO-ready, high-performance frontend experiences.
-🤝 Whether working solo or within cross-functional teams, I approach every project with a problem-solving mindset and a passion for user experience.
-
-Beyond coding, I’m actively exploring how AI and emerging technologies can enhance modern development, and I enjoy mentoring junior developers through teaching and collaboration.
-
-I’m currently open to full-time roles where I can contribute to innovative teams, build products that matter, and keep growing as a developer.
-
-👉 Let’s create something impactful together.`;
+Whether designing decentralized protocols or shipping production full-stack systems, I focus on system reliability, clean domain-driven architecture, and measurable product growth.`;
 
 export const Experiences = [
   {
-    year: "Nov 2024 - Present",
-    role: "Software Developer Intern",
-    company: "GJIO Technologies Inc.",
-    description: `Implemented technical SEO (SSR, meta tags, structured data), resulting in 3,000+ monthly organic users.`,
-    technologies: ["TypeScript", "NextJs", "DaisyUI"],
+    year: "Aug 2026 - Present",
+    role: "Blockchain Engineer",
+    company: "Tsion Corp",
+    description: `Designed and deployed a sovereign enterprise-grade Layer-1 App-Chain alongside its decentralized exchange infrastructure.`,
+    technologies: ["Cosmos SDK", "Solidity"],
+  },
+   {
+    year: "Jan 2026 - Present",
+    role: "Backend Developer",
+    company: "CNITCODE Technology & Consult",
+    description: `Sole backend engineer responsible for architecting and developing a three-party e-commerce platform with a scalable multi-tenant ed-tech platform.`,
+    technologies: ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "Redis", "Docker"],
+  },
+  {
+    year: "Jan 2026 - April 2026",
+    role: "Blockchain Developer",
+    company: "Web3Bridge",
+    description: `Designing and implementing smart contracts using Solidity, including ERC20 and ERC721 tokens, and integrating them with web applications using Web3.js and Ethers.js whilst testing with Hardhat and Foundry.`,
+    technologies: ["Solidity", "Web3.js", "Ethers.js", "Hardhat", "Foundry"],
   },
   {
     year: "July 2025 - Oct 2025",
     role: "Frontend Developer",
     company: "Forah Technology",
-    description: `Fixed Golvia’s authentication system on my first day, enabling investor access for live testing,  a key factor in securing a $10,000 investment deal.`,
+    description: `Fixed Golvia’s authentication system on my first day, enabling investor access for live testing, a key factor in securing a $10,000 investment deal.`,
     technologies: ["TypeScript", "React.js", "NextJs", "MaterialUI"],
+  },
+  {
+    year: "Nov 2024 - Nov 2025",
+    role: "Software Developer Intern",
+    company: "GJIO Technologies Inc.",
+    description: `Implemented technical SEO (SSR, meta tags, structured data), resulting in 3,000+ monthly organic users.`,
+    technologies: ["TypeScript", "NextJs", "DaisyUI"],
   },
   {
     year: "May 2024 - Oct 2024",
@@ -53,25 +68,10 @@ export const Experiences = [
       "mongoDB",
       "Node.js",
     ],
-  },
-  {
-    year: "July 2023 - April 2024",
-    role: "Web Developer Intern",
-    company: "Fumman Chemicals",
-    description: `Developed 5+ user-friendly web interfaces, translating design mockups into functional applications, and collaborated with a team of 6 developers.`,
-    technologies: ["HTML", "CSS", "JavaScript"],
-  },
+  }
 ];
 
 export const Projects = [
-  {
-    title: "Shareduled - Appointment Booking Marketing Application",
-    Image: shareduled,
-    description: `A scheduling platform that enables business and users to book appointments schedules for services, helps coordinate tasks and manage time effectively.`,
-    technologies: ["NextJS", "TypeScript", "DaisyUI"],
-    gitHub: "/",
-    live: "https://shareduled.com/",
-  },
   {
     title: "Subscription Tracker",
     Image: subscriptionTracker,
@@ -81,18 +81,19 @@ export const Projects = [
     live: "https://documenter.getpostman.com/view/37531984/2sB3WsNeXr",
   },
   {
-    title: "Golvia Sports - Social Media Platform for Sports Enthusiasts",
-    Image: golvia,
-    description: `A social media platform tailored for sports enthusiasts, featuring real-time updates, community engagement, and personalized content feeds.`,
-    technologies: [
-      "TypeScript",
-      "React.js",
-      "NextJs",
-      "MaterialUI",
-      "OAuth2.0",
-    ],
+    title: "KainKain - Nigeria Native Art e-commerce Web Application",
+    Image: kainkain,
+    description: `An e-commerce platform focused on selling Nigerian art products crafted with native kain kain sponge and curated art photography, allowing users to browse, search, and purchase artworks. The application features a user-friendly interface, secure payment processing, and a responsive design for an optimal shopping experience.`,
+    technologies: ["NextJS", "TypeScript", "DaisyUi", "MongoDB"],
     gitHub: "/",
-    live: "https://golviasports.com/",
+    live: "https://kain-kain-git-staging-adeoyetunmises-projects.vercel.app?_vercel_share=KaypY4lbTGD7PDIEs4aNBWRMJR6Iay9m",
+  },
+  {
+    title: "Eduspra - Multi-tenant Ed-Tech Platform",
+    Image: eduspra,
+    description: `The Eduspra platform is a multi-tenant ed-tech solution designed to serve various educational institutions. It provides a comprehensive set of tools for managing courses, students, and instructors, all within a single, unified interface.`,
+    technologies: ["ExpressJS", "PostgreSQL", "Redis"],
+    live: "https://eduspra.com",
   },
   {
     title: "Chat Application",
@@ -109,14 +110,6 @@ export const Projects = [
     technologies: ["NextJS", "TypeScript", "DaisyUI", "MongoDB", "OAuth2.0"],
     gitHub: "https://github.com/OlolaJaco/streamer.git",
     live: "https://streamer-xi.vercel.app",
-  },
-  {
-    title: "KainKain - Nigeria Native Art e-commerce Web Application",
-    Image: kainkain,
-    description: `An e-commerce platform focused on selling Nigerian art products crafted with native kain kain sponge and curated art photography, allowing users to browse, search, and purchase artworks. The application features a user-friendly interface, secure payment processing, and a responsive design for an optimal shopping experience.`,
-    technologies: ["NextJS", "TypeScript", "DaisyUi", "MongoDB"],
-    gitHub: "/",
-    live: "https://kain-kain-git-staging-adeoyetunmises-projects.vercel.app?_vercel_share=KaypY4lbTGD7PDIEs4aNBWRMJR6Iay9m",
   },
   {
     title: "Blog Website",
